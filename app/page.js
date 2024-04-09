@@ -1,6 +1,7 @@
 'use client';
 import { ConnectButton, useApi } from 'arweave-wallet-kit';
 const { message, createDataItemSigner, connect, dryrun, result } = require('@permaweb/aoconnect');
+// import { message, createDataItemSigner, connect, dryrun, result } from '@permaweb/aoconnect';
 import { ArweaveWebWallet } from 'arweave-wallet-connector';
 import React, { useState, useEffect } from 'react';
 
